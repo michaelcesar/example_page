@@ -1,33 +1,33 @@
 .wrapper {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 230px;
-    height: 54px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 230px;
+  height: 54px;
 
-    background-color: #29292B;
-    border-radius: 24px;
-    
+  background-color: #29292b;
+  border-radius: 24px;
 }
 
 .wrapper p {
-    color: var(--font-white);
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  color: var(--font-white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
 }
 
 .cursor {
-    display: inline-block;
-    width: 1px;
-    height: 16px;
-    background-color: var(--font-white);
-    margin-left: 5px;
-    animation: blink 1s step-end infinite;
+  display: inline-block;
+  width: 1px;
+  height: 16px;
+  background-color: var(--font-white);
+  margin-left: 5px;
+  animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
   }
-  
-  @keyframes blink {
-    50% {
-      opacity: 0;
-    }
-  }
+}

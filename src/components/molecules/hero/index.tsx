@@ -6,7 +6,8 @@ export default function Hero() {
     <section className={styles.section}>
       <Words />
       <h1>
-        Produtos digitais<br></br>que mudam negócios.
+        <span className={styles.span}>Produtos</span> digitais<br></br>que mudam
+        <span className={styles.span}> negócios</span>.
       </h1>
     </section>
   );

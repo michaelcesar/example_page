@@ -4,7 +4,7 @@ import styles from './header.module.css';
 export default function Header() {
   return (
     <header className={styles.header}>
-      <h1>Arco Content</h1>
+      <h1>ARCO</h1>
       <nav>
         <ul>
           <li>Sobre nós</li>
