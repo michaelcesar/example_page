@@ -1,23 +1,16 @@
 .wrapper {
   display: flex;
-  align-items: center;
   width: 100%;
   color: var(--font-black);
-  background-color: rgba(255, 255, 255, 0.623);
-  border: solid 2px rgba(240, 240, 240, 0.5);
-  border-radius: 24px;
-  padding: 16px 32px 16px 32px;
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   flex-direction: row;
   gap: 80px;
+  height: 700px;
 }
 
 .box {
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: 16px;
   width: 50%;
 }
 
@@ -27,6 +20,26 @@
   align-items: center;
   justify-content: center;
   padding-top: 24px;
+}
+
+.animationBox {
+    display: flex;
+    align-items: center;
+    height: 20%;
+
+}
+
+.boxText {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.boxText a {
+    text-decoration: underline;
+    font-size: 1.1rem;
+    text-underline-offset: 0.6rem;
+    font-weight: 500;
 }
 
 .block {
@@ -44,5 +57,10 @@
 
 .text {
   font-size: 1.1rem;
-  font-weight: 500;
+  font-weight: 400;
+}
+
+.title {
+  font-size: 1.625rem;
+  font-weight: 700;
 }

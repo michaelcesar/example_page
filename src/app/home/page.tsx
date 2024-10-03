@@ -3,6 +3,7 @@ import styles from './home.module.css';
 import Hero from '@/components/molecules/hero';
 import Products from '@/components/molecules/products';
 import Creating from '@/components/molecules/creating';
+import Development from '@/components/molecules/development';
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
         <div className={styles.hr}></div>
         <Products />
         <Creating />
+        <Development />
       </section>
     </main>
   );

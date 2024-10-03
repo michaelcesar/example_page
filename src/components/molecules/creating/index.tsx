@@ -1,4 +1,6 @@
+import Animation from '@/components/atoms/animation';
 import styles from './creating.module.css';
+import creatingAnimation from '../../../../public/animations/creating.json';
 
 export default function Creating() {
   return (
@@ -6,18 +8,24 @@ export default function Creating() {
       <div className={styles.box}>
         <div className={styles.block}>COMO TRABALHAMOS</div>
         <p className={styles.text}>
-          Nosso trabalho se inicia no Product Concept, quando ajudamos o cliente
-          a definir a melhor solução para suas dores, passando por todo processo
-          de Product Development, onde é construída e validada essa solução e
-          posteriormente sua evolução e sustentação
+          Nosso trabalho começa auxiliando o cliente a identificar a solução
+          ideal para suas necessidades. A partir daí, conduzimos todo o processo
+          de desenvolvimento, desde a construção até a validação da solução,
+          garantindo também sua evolução e suporte contínuo, para que o produto
+          se mantenha eficiente e alinhado com as demandas do mercado.
         </p>
         <span>
-          Também trabalhamos com formatos específicos de acordo com as
-          necessidades da empresa, adaptando nosso processo para atingir os
-          objetivos definidos.
+          Com todos os objetios alinhados e estabelecidos, podemos proporcionar
+          soluções sob medida para resolver seus problemas.
         </span>
       </div>
-      <div className={styles.box}>Michael</div>
+      <div className={styles.boxRight}>
+        <Animation
+          animationData={creatingAnimation}
+          width="450px"
+          height="450px"
+        />
+      </div>
     </section>
   );
 }
