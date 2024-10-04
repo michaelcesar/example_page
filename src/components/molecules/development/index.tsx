@@ -9,7 +9,10 @@ export default function Creating() {
     <section className={styles.wrapper}>
       <div className={styles.box}>
         <div className={styles.boxText}>
-          <p>Desenvolvimento | High code</p>
+          <p>
+            Desenvolvimento |{' '}
+            <span style={{ fontWeight: '700' }}>High code</span>
+          </p>
           <p className={styles.title}>Desenvolvendo o Produto</p>
           <p className={styles.text}>
             Com uma solução ou hipótese estabelecida, damos início à construção
@@ -48,7 +51,10 @@ export default function Creating() {
         </div>
 
         <div className={styles.boxText}>
-          <p>Desenvolvimento | Low code/No code</p>
+          <p>
+            Desenvolvimento |{' '}
+            <span style={{ fontWeight: '700' }}>Low code/No code</span>
+          </p>
           <p className={styles.title}>Desenvolvendo o Produto</p>
           <p className={styles.text}>
             Com uma solução ou hipótese estabelecida, damos início à construção

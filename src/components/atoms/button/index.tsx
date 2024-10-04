@@ -2,11 +2,12 @@ import style from './button.module.css';
 
 interface ButtonProps {
   text: string;
+  width?: string;
 }
 
-export default function Button({ text }: ButtonProps) {
+export default function Button({ text, width }: ButtonProps) {
   return (
-    <button className={style.button}>
+    <button className={style.button} style={{ width: width }}>
       {text}
       <svg
         width="18"

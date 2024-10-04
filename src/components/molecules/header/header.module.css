@@ -30,3 +30,10 @@
   width: auto;
   flex-grow: 1;
 }
+
+.header li:hover {
+  transition: 0.5s;
+  cursor: pointer;
+  transform: scale(1.005);
+  color: var(--yellow);
+}

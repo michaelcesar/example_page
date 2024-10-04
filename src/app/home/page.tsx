@@ -5,6 +5,7 @@ import Products from '@/components/molecules/products';
 import Creating from '@/components/molecules/creating';
 import Development from '@/components/molecules/development';
 import Footer from '@/components/molecules/footer';
+import Rocket from '@/components/molecules/rocket';
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
         <Products />
         <Creating />
         <Development />
+        <Rocket />
         <Footer></Footer>
       </section>
     </main>
