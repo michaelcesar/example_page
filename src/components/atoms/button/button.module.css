@@ -12,3 +12,7 @@
   font-size: 1rem;
   gap: 16px;
 }
+
+.button:hover {
+  cursor: pointer;
+}

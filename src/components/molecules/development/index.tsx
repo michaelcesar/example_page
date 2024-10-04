@@ -1,6 +1,7 @@
 import styles from './development.module.css';
 import Animation from '@/components/atoms/animation';
 import developmentAnimation from '../../../../public/animations/development.json';
+import DevelopmentItem from '@/components/atoms/development_item';
 
 export default function Creating() {
   return (
@@ -24,7 +25,9 @@ export default function Creating() {
           <a>Conheça alguns de nossos produtos já desenvolvidos</a>
         </div>
       </div>
-      <div className={styles.boxRight}></div>
+      <div className={styles.boxRight}>
+        <DevelopmentItem></DevelopmentItem>
+      </div>
     </section>
   );
 }

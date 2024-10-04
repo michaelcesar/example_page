@@ -45,6 +45,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-BR">
+      <head>
+        <link rel="icon" href="/images/logo.svg" />
+        <title>Arco Content</title>
+      </head>
       <body className={`${Poppins.variable} antialiased`}>{children}</body>
     </html>
   );
