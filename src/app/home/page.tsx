@@ -4,6 +4,7 @@ import Hero from '@/components/molecules/hero';
 import Products from '@/components/molecules/products';
 import Creating from '@/components/molecules/creating';
 import Development from '@/components/molecules/development';
+import Footer from '@/components/molecules/footer';
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
         <Products />
         <Creating />
         <Development />
+        <Footer></Footer>
       </section>
     </main>
   );
