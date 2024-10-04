@@ -22,12 +22,6 @@
   padding-top: 24px;
 }
 
-.animationBox {
-  display: flex;
-  align-items: center;
-  height: 20%;
-}
-
 .boxText {
   display: flex;
   flex-direction: column;
@@ -82,7 +76,7 @@
   background-color: rgba(255, 255, 255, 0.623);
   border: solid 2px rgba(240, 240, 240, 0.5);
   border-radius: 24px;
-  padding: 16px 32px 16px 32px;
+  padding: 16px 16px 16px 16px;
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);

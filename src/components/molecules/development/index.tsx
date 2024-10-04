@@ -1,7 +1,5 @@
 import styles from './development.module.css';
 import Animation from '@/components/atoms/animation';
-import developmentAnimation from '../../../../public/animations/development.json';
-import creatingAnimation from '../../../../public/animations/creating.json';
 import codeAnimation from '../../../../public/animations/code.json';
 import lowcodeAnimation from '../../../../public/animations/low_code.json';
 import Image from 'next/image';
@@ -11,13 +9,6 @@ export default function Creating() {
     <section className={styles.wrapper}>
       <div className={styles.box}>
         <div className={styles.boxText}>
-          <div className={styles.animationBox}>
-            <Animation
-              animationData={developmentAnimation}
-              height="200px"
-              width="200px"
-            />
-          </div>
           <p>Desenvolvimento | High code</p>
           <p className={styles.title}>Desenvolvendo o Produto</p>
           <p className={styles.text}>
@@ -57,13 +48,6 @@ export default function Creating() {
         </div>
 
         <div className={styles.boxText}>
-          <div className={styles.animationBox}>
-            <Animation
-              animationData={developmentAnimation}
-              height="200px"
-              width="200px"
-            />
-          </div>
           <p>Desenvolvimento | Low code/No code</p>
           <p className={styles.title}>Desenvolvendo o Produto</p>
           <p className={styles.text}>
