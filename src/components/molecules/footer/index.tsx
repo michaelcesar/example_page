@@ -18,27 +18,45 @@ export default function Footer() {
           <nav>
             <h2>Menu</h2>
             <ul>
-              <li>Sobre nós</li>
-              <li>Produtos</li>
-              <li>Portfolio</li>
-              <li>Consultoria</li>
+              <li>
+                <a>Sobre nós</a>
+              </li>
+              <li>
+                <a>Pordutos</a>
+              </li>
+              <li>
+                <a>Portfolio</a>
+              </li>
+              <li>
+                <a>Consultoria</a>
+              </li>
             </ul>
           </nav>
 
           <nav>
             <h2>Links</h2>
             <ul style={{ textDecoration: 'underline' }}>
-              <li>Youtube</li>
-              <li>Instagram</li>
-              <li>TikTok</li>
-              <li>Behance</li>
+              <li>
+                <a>Youtube</a>
+              </li>
+              <li>
+                <a>Instagram</a>
+              </li>
+              <li>
+                <a>TikTok</a>
+              </li>
+              <li>
+                <a>Behance</a>
+              </li>
             </ul>
           </nav>
 
           <nav>
             <h2>Contato</h2>
             <ul>
-              <li>84 9 9709-9839</li>
+              <li>
+                <a>84 9 9709-9839</a>
+              </li>
             </ul>
           </nav>
         </div>
@@ -48,11 +66,15 @@ export default function Footer() {
         <div className={styles.boxLeft}>
           <ul className={styles.ulStyle}>
             <li>
-              <p>Termos de Uso</p>
+              <p>
+                <a>Termos de Uso</a>
+              </p>
             </li>
             <div className={styles.divLine}></div>
             <li>
-              <p>Políticas de Privacidade</p>
+              <p>
+                <a>Políticas de Privacidade</a>
+              </p>
             </li>
           </ul>
         </div>

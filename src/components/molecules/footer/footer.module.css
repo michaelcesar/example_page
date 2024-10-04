@@ -24,6 +24,18 @@
     
 }
 
+.footer li:hover {
+    transition: 0.5s;
+    cursor: pointer;
+    transform: scale(1.005);
+    color: var(--yellow);
+}
+
+.footer ul li p:hover {
+    transition: 0.5s;
+    color: var(--yellow);
+}
+
 .wrapper {
   display: flex;
   width: 72%;
