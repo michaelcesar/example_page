@@ -6,6 +6,7 @@ import Creating from '@/components/molecules/creating';
 import Development from '@/components/molecules/development';
 import Footer from '@/components/molecules/footer';
 import Rocket from '@/components/molecules/rocket';
+import Grow from '@/components/molecules/grow';
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
         <Creating />
         <Development />
         <Rocket />
+        <Grow />
         <Footer></Footer>
       </section>
     </main>

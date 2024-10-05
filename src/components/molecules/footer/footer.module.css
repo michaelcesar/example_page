@@ -11,29 +11,27 @@
 }
 
 .footer h2 {
-    color: var(--font-white);
-    font-size: 1.1rem;
-    font-weight: 500;
-    
+  color: var(--font-white);
+  font-size: 1.1rem;
+  font-weight: 500;
 }
 
 .footer p {
-    color: var(--font-white);
-    font-size: 1rem;
-    font-weight: 300;
-    
+  color: var(--font-white);
+  font-size: 1rem;
+  font-weight: 300;
 }
 
 .footer li:hover {
-    transition: 0.5s;
-    cursor: pointer;
-    transform: scale(1.005);
-    color: var(--yellow);
+  transition: 0.5s;
+  cursor: pointer;
+  transform: scale(1.005);
+  color: var(--yellow);
 }
 
 .footer ul li p:hover {
-    transition: 0.5s;
-    color: var(--yellow);
+  transition: 0.5s;
+  color: var(--yellow);
 }
 
 .wrapper {
@@ -44,52 +42,49 @@
 }
 
 .boxLeft {
-    display: flex;
-    width: 50%;
-    flex-direction: column;
-    gap: 16px;
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+  gap: 16px;
 }
-  
+
 .boxRight {
   display: flex;
   width: 50%;
   color: var(--font-white);
-  justify-content: space-between
-
+  justify-content: space-between;
 }
 
 .boxRight nav {
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
-    
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
 }
 
 .boxRight ul {
-    display: flex;
-    flex-direction: column;
-    list-style: none;
-    gap: 8px;
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  gap: 8px;
 }
 
 .ulStyle {
-    display: flex;
-    gap: 16px;
-    list-style: none;
-    align-items: center;
+  display: flex;
+  gap: 16px;
+  list-style: none;
+  align-items: center;
 }
 
 .divLine {
-    height: 12px;
-    width: 2px;
-    background-color: #bbbbbb;
+  height: 12px;
+  width: 2px;
+  background-color: #bbbbbb;
 }
 
 .hr {
-    background-color: var(--gray);
-    width: 72%;
-    height: 1px;
-    border: none;
-    border-radius: 24px;
-  }
-  
+  background-color: var(--gray);
+  width: 72%;
+  height: 1px;
+  border: none;
+  border-radius: 24px;
+}

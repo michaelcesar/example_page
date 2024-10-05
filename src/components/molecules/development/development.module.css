@@ -4,14 +4,12 @@
   color: var(--font-black);
   flex-direction: row;
   gap: 80px;
-  height: 700px;
 }
 
 .wrapper a:hover {
   transition: 0.5s;
   color: var(--yellow);
   cursor: pointer;
-
 }
 
 .box {
@@ -87,7 +85,7 @@
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  height: 500px;
+  height: 400px;
   margin-top: 40px;
 }
 
