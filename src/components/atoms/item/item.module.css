@@ -15,19 +15,19 @@
 }
 
 .title {
-    font-size: 1.8rem;
+  font-size: 1.8rem;
 }
 
 .subtitle {
-    font-size: 1.1rem;
-    font-weight: 500;
+  font-size: 1.1rem;
+  font-weight: 500;
 }
 
 .link {
-    font-size: 1rem;
-    font-weight: 700;
-    background: linear-gradient(24deg, #ffe01b, #ffac11);
-    -webkit-background-clip: text; 
-    -webkit-text-fill-color: transparent;
-    background-clip: text; 
+  font-size: 1rem;
+  font-weight: 700;
+  background: linear-gradient(24deg, #ffe01b, #ffac11);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }

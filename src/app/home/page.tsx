@@ -7,6 +7,7 @@ import Development from '@/components/molecules/development';
 import Footer from '@/components/molecules/footer';
 import Rocket from '@/components/molecules/rocket';
 import Grow from '@/components/molecules/grow';
+import Portfolio from '@/components/molecules/portfolio';
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
         <Development />
         <Rocket />
         <Grow />
+        <Portfolio />
         <Footer></Footer>
       </section>
     </main>

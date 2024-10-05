@@ -1,37 +1,43 @@
 .wrapper {
   display: flex;
   width: 100%;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 112px;
+  gap: 56px;
 }
 
-.wrapper h2 {
+.wrapper p {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.wrapper h1 {
   font-size: 3rem;
-  font-weight: 700;
 }
 
-.boxLeft {
-  display: flex;
-  flex-direction: column;
-  width: 50%;
-  gap: 24px;
-}
-
-.boxLeft h3 {
+.text {
   font-size: 1.2rem;
+  text-align: center;
   font-weight: 400;
+  width: 75%;
 }
 
-.boxRight {
+.boxText {
   display: flex;
-  width: 50%;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.box {
+  display: flex;
+  width: 100%;
   gap: 40px;
 }
 
-.wrapper span {
+.span {
   background: linear-gradient(24deg, #ffe01b, #ffac11);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
